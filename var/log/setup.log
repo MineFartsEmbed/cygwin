@@ -1,0 +1,610 @@
+2026/11/07 10:41:24 Starting cygwin install, version 2.941
+2026/11/07 10:41:24 User has NO backup/restore rights
+2026/11/07 10:41:24 User has symlink creation right
+2026/11/07 10:41:24 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2026/11/07 10:41:24 Current Directory: C:\Users\administrator\Downloads
+2026/11/07 10:41:30 source: download
+2026/11/07 10:41:32 Selected local directory: C:\Users\administrator\Downloads
+2026/11/07 10:41:33 net: Preconfig
+2026/11/07 10:41:34 Starting speed measurement for 67 site(s) with 8 concurrent thread(s)
+2026/11/07 10:42:06 connection error: 12029 fetching https://mirror.cs.vt.edu/pub/cygwin/cygwin/x86_64/setup.ini
+2026/11/07 10:42:07 Speed measurement complete in 33.2694 seconds
+2026/11/07 10:42:28 site: https://mirrors.tencent.com/cygwin/
+2026/11/07 10:42:32 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2026/11/07 10:42:32 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2026/11/07 10:42:36 solving: 38 tasks, update: yes, use test packages: no
+2026/11/07 10:42:54 solving: 78 tasks, update: no, use test packages: no
+2026/11/07 10:42:54 Augmented Transaction List:
+2026/11/07 10:42:54    0 install gettext-locale-alias 0.26-1               
+2026/11/07 10:42:54    1 install libpopt-common       1.19-1               
+2026/11/07 10:42:54    2 install libsqlite3_0         3.49.1-1             
+2026/11/07 10:42:54    3 install terminfo             6.5+20240427-1       
+2026/11/07 10:42:54    4 install tzdata               2026f-1              
+2026/11/07 10:42:54    5 install cygwin               3.6.12-1             
+2026/11/07 10:42:54    6 install libiconv2            1.19-2               
+2026/11/07 10:42:54    7 install libintl8             0.22.5-1             
+2026/11/07 10:42:54    8 install libncursesw10        6.5+20240427-1       
+2026/11/07 10:42:54    9 install libreadline7         8.2-2                
+2026/11/07 10:42:54   10 install bash                 5.2.21-1             
+2026/11/07 10:42:54   11 install libgcc1              14.4.0-1             
+2026/11/07 10:42:54   12 install base-cygwin          3.8-2                
+2026/11/07 10:42:54   13 install libzstd1             1.5.7-1              
+2026/11/07 10:42:54   14 install zlib0                1.3.2-1              
+2026/11/07 10:42:54   15 install which                2.25-1               
+2026/11/07 10:42:54   16 install vim-minimal          9.1.1825-1           
+2026/11/07 10:42:54   17 install tzcode               2026f-1              
+2026/11/07 10:42:54   18 install run                  1.3.4-2              
+2026/11/07 10:42:54   19 install ncurses              6.5+20240427-1       
+2026/11/07 10:42:54   20 install login                1.13-1               
+2026/11/07 10:42:54   21 install libuuid1             2.40.2-2             
+2026/11/07 10:42:54   22 install libtasn1_6           4.21.0-1             
+2026/11/07 10:42:54   23 install libstdc++6           14.4.0-1             
+2026/11/07 10:42:54   24 install libsmartcols1        2.40.2-2             
+2026/11/07 10:42:54   25 install libreadline8         8.3-1                
+2026/11/07 10:42:54   26 install libpopt0             1.19-1               
+2026/11/07 10:42:54   27 install libpipeline1         1.5.8-1              
+2026/11/07 10:42:54   28 install libpcre2_8_0         10.49-1              
+2026/11/07 10:42:54   29 install libpcre1             8.45-1               
+2026/11/07 10:42:54   30 install liblzma5             5.8.4-1              
+2026/11/07 10:42:54   31 install liblz4_1             1.9.4-1              
+2026/11/07 10:42:54   32 install liblastlog2          2.40.2-2             
+2026/11/07 10:42:54   33 install libgmp10             6.3.0-1              
+2026/11/07 10:42:54   34 install libgdbm6             1.26-1               
+2026/11/07 10:42:54   35 install libffi8              3.8.0-1              
+2026/11/07 10:42:54   36 install libbz2_1             1.0.8-2              
+2026/11/07 10:42:54   37 install libblkid1            2.40.2-2             
+2026/11/07 10:42:54   38 install libattr1             2.5.2-2              
+2026/11/07 10:42:54   39 install libargp              20250917-2           
+2026/11/07 10:42:54   40 install ipc-utils            1.1-1                
+2026/11/07 10:42:54   41 install hostname             3.13-1               
+2026/11/07 10:42:54   42 install gzip                 1.15-1               
+2026/11/07 10:42:54   43 install editrights           1.04-1               
+2026/11/07 10:42:54   44 install diffutils            3.12-1               
+2026/11/07 10:42:54   45 install dash                 0.5.12-5             
+2026/11/07 10:42:54   46 install alternatives         1.31-1               
+2026/11/07 10:42:54   47 install libuchardet0         0.0.8-1              
+2026/11/07 10:42:54   48 install cygutils             1.4.17-4             
+2026/11/07 10:42:54   49 install grep                 3.12-1               
+2026/11/07 10:42:54   50 install less                 710-1                
+2026/11/07 10:42:54   51 install xz                   5.8.4-1              
+2026/11/07 10:42:54   52 install zstd                 1.5.7-1              
+2026/11/07 10:42:54   53 install libmpfr6             4.2.2-1              
+2026/11/07 10:42:54   54 install libp11-kit0          0.26.5-1             
+2026/11/07 10:42:54   55 install file                 5.46-1               
+2026/11/07 10:42:54   56 install bzip2                1.0.8-2              
+2026/11/07 10:42:54   57 install libfdisk1            2.40.2-2             
+2026/11/07 10:42:54   58 install sed                  4.10-1               
+2026/11/07 10:42:54   59 install coreutils            9.0-1                
+2026/11/07 10:42:54   60 install getent               2.18.90-5            
+2026/11/07 10:42:54   61 install rebase               4.6.6-1              
+2026/11/07 10:42:54   62 install mintty               3.8.3-1              
+2026/11/07 10:42:54   63 install info                 7.3-1                
+2026/11/07 10:42:54   64 install _autorebase          001091-1             
+2026/11/07 10:42:54   65 install groff                1.24.2-1             
+2026/11/07 10:42:54   66 install gawk                 5.4.0-1              
+2026/11/07 10:42:54   67 install p11-kit-trust        0.26.5-1             
+2026/11/07 10:42:54   68 install p11-kit              0.26.5-1             
+2026/11/07 10:42:54   69 install tar                  1.35-2               
+2026/11/07 10:42:54   70 install util-linux           2.40.2-2             
+2026/11/07 10:42:54   71 install findutils            4.11.0-1             
+2026/11/07 10:42:54   72 install crypto-policies      20190218-1           
+2026/11/07 10:42:54   73 install ca-certificates      2026.2.92_v9.0.319-1 
+2026/11/07 10:42:54   74 install man-db               2.13.1-1             
+2026/11/07 10:42:54   75 install base-files           4.3-3                
+2026/11/07 10:42:54   76 install libssl3              3.5.9-1              
+2026/11/07 10:42:54   77 install openssl              3.5.9-1              
+2026/11/07 10:42:57 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gettext/gettext-locale-alias/gettext-locale-alias-0.26-1-x86_64.tar.xz
+2026/11/07 10:42:58 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2026/11/07 10:42:59 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.49.1-1.tar.xz
+2026/11/07 10:42:59 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz
+2026/11/07 10:43:00 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2026f-1-noarch.tar.xz
+2026/11/07 10:43:00 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.6.12-1-x86_64.tar.xz
+2026/11/07 10:43:01 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.19-2-x86_64.tar.xz
+2026/11/07 10:43:01 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22.5-1.tar.xz
+2026/11/07 10:43:01 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz
+2026/11/07 10:43:02 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2026/11/07 10:43:02 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz
+2026/11/07 10:43:02 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:43:02 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2026/11/07 10:43:03 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.7-1.tar.zst
+2026/11/07 10:43:03 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3.2-1-x86_64.tar.zst
+2026/11/07 10:43:03 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/which/which-2.25-1-x86_64.tar.xz
+2026/11/07 10:43:04 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.1.1825-1-x86_64.tar.xz
+2026/11/07 10:43:05 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2026f-1-x86_64.tar.xz
+2026/11/07 10:43:05 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2026/11/07 10:43:06 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz
+2026/11/07 10:43:06 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2026/11/07 10:43:07 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.40.2-2.tar.xz
+2026/11/07 10:43:07 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.21.0-1-x86_64.tar.xz
+2026/11/07 10:43:08 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:43:08 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.40.2-2.tar.xz
+2026/11/07 10:43:09 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/readline/libreadline8/libreadline8-8.3-1-x86_64.tar.xz
+2026/11/07 10:43:09 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2026/11/07 10:43:10 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.8-1-x86_64.tar.xz
+2026/11/07 10:43:11 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.49-1-x86_64.tar.zst
+2026/11/07 10:43:11 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+2026/11/07 10:43:11 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.8.4-1-x86_64.tar.zst
+2026/11/07 10:43:12 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2026/11/07 10:43:12 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/liblastlog2/liblastlog2-2.40.2-2.tar.xz
+2026/11/07 10:43:12 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+2026/11/07 10:43:13 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.26-1-x86_64.tar.xz
+2026/11/07 10:43:13 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libffi/libffi8/libffi8-3.8.0-1-x86_64.tar.xz
+2026/11/07 10:43:14 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-2-x86_64.tar.xz
+2026/11/07 10:43:14 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.40.2-2.tar.xz
+2026/11/07 10:43:14 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.2-2-x86_64.tar.xz
+2026/11/07 10:43:15 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libargp/libargp-20250917-2-x86_64.tar.xz
+2026/11/07 10:43:15 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2026/11/07 10:43:16 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2026/11/07 10:43:16 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.15-1-x86_64.tar.xz
+2026/11/07 10:43:16 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2026/11/07 10:43:17 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.12-1-x86_64.tar.xz
+2026/11/07 10:43:17 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz
+2026/11/07 10:43:18 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.31-1.tar.xz
+2026/11/07 10:43:18 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+2026/11/07 10:43:18 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-4-x86_64.tar.xz
+2026/11/07 10:43:19 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/grep/grep-3.12-1-x86_64.tar.xz
+2026/11/07 10:43:19 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/less/less-710-1-x86_64.tar.xz
+2026/11/07 10:43:20 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/xz/xz-5.8.4-1-x86_64.tar.zst
+2026/11/07 10:43:20 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.7-1.tar.zst
+2026/11/07 10:43:21 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.2-1.tar.zst
+2026/11/07 10:43:21 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.26.5-1-x86_64.tar.xz
+2026/11/07 10:43:22 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/file/file-5.46-1-x86_64.tar.xz
+2026/11/07 10:43:23 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-2-x86_64.tar.xz
+2026/11/07 10:43:23 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.40.2-2.tar.xz
+2026/11/07 10:43:24 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/sed/sed-4.10-1-x86_64.tar.xz
+2026/11/07 10:43:24 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2026/11/07 10:43:25 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2026/11/07 10:43:25 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+2026/11/07 10:43:26 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.8.3-1-x86_64.tar.xz
+2026/11/07 10:43:26 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.3-1-x86_64.tar.zst
+2026/11/07 10:43:27 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2026/11/07 10:43:27 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/groff/groff-1.24.2-1-x86_64.tar.zst
+2026/11/07 10:43:27 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.4.0-1-x86_64.tar.xz
+2026/11/07 10:43:28 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.26.5-1-x86_64.tar.xz
+2026/11/07 10:43:29 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.26.5-1-x86_64.tar.xz
+2026/11/07 10:43:29 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-2.tar.zst
+2026/11/07 10:43:30 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.40.2-2.tar.xz
+2026/11/07 10:43:30 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.11.0-1-x86_64.tar.xz
+2026/11/07 10:43:30 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2026/11/07 10:43:31 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2026.2.92_v9.0.319-1-noarch.tar.zst
+2026/11/07 10:43:31 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.13.1-1-x86_64.tar.zst
+2026/11/07 10:43:32 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2026/11/07 10:43:32 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.5.9-1-x86_64.tar.zst
+2026/11/07 10:43:33 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/openssl-3.5.9-1-x86_64.tar.zst
+2026/11/07 10:44:24 source: network install
+2026/11/07 10:44:29 root: C:\cygwin64 system
+2026/11/07 10:44:29 Changing gid to Administrators
+2026/11/07 10:44:30 Selected local directory: C:\Users\administrator\Downloads
+2026/11/07 10:44:31 net: Preconfig
+2026/11/07 10:44:33 site: https://mirrors.tencent.com/cygwin/
+2026/11/07 10:44:35 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2026/11/07 10:47:41 solving: 4 tasks, update: no, use test packages: no
+2026/11/07 10:47:41 Augmented Transaction List:
+2026/11/07 10:47:41    0 install gettext-locale-alias     0.26-1               
+2026/11/07 10:47:41    1 install terminfo                 6.5+20240427-1       
+2026/11/07 10:47:41    2 install tzdata                   2026f-1              
+2026/11/07 10:47:41    3 install libsqlite3_0             3.49.1-1             
+2026/11/07 10:47:41    4 install cygwin-devel             3.6.12-1             
+2026/11/07 10:47:41    5 install w32api-headers           14.0.0-1             
+2026/11/07 10:47:41    6 install windows-default-manifest 6.5-1                
+2026/11/07 10:47:41    7 install libpopt-common           1.19-1               
+2026/11/07 10:47:41    8 install publicsuffix-list-dafsa  20260724-1           
+2026/11/07 10:47:41    9 install zlib0                    1.3.2-1              
+2026/11/07 10:47:41   10 install w32api-runtime           14.0.0-1             
+2026/11/07 10:47:41   11 install libzstd1                 1.5.7-1              
+2026/11/07 10:47:41   12 install libgcc1                  14.4.0-1             
+2026/11/07 10:47:41   13 install cygwin                   3.6.12-1             
+2026/11/07 10:47:41   14 install libiconv2                1.19-2               
+2026/11/07 10:47:41   15 install libintl8                 0.22.5-1             
+2026/11/07 10:47:41   16 install libintl-devel            0.22.5-1             
+2026/11/07 10:47:41   17 install libncursesw10            6.5+20240427-1       
+2026/11/07 10:47:41   18 install libreadline7             8.2-2                
+2026/11/07 10:47:41   19 install bash                     5.2.21-1             
+2026/11/07 10:47:41   20 install libpkgconf8              3.0.10-1             
+2026/11/07 10:47:41   21 install libcharset1              1.19-2               
+2026/11/07 10:47:41   22 install libidn2_0                2.3.8-1              
+2026/11/07 10:47:41   23 install libcom_err2              1.44.5-1             
+2026/11/07 10:47:41   24 install libkrb5support0          1.15.2-2             
+2026/11/07 10:47:41   25 install libnghttp2_14            1.69.0-1             
+2026/11/07 10:47:41   26 install libtasn1_6               4.21.0-1             
+2026/11/07 10:47:41   27 install liblz4_1                 1.9.4-1              
+2026/11/07 10:47:41   28 install tzcode                   2026f-1              
+2026/11/07 10:47:41   29 install libpopt0                 1.19-1               
+2026/11/07 10:47:41   30 install liblzma5                 5.8.4-1              
+2026/11/07 10:47:41   31 install libbz2_1                 1.0.8-2              
+2026/11/07 10:47:41   32 install libquadmath0             14.4.0-1             
+2026/11/07 10:47:41   33 install libgomp1                 14.4.0-1             
+2026/11/07 10:47:41   34 install libatomic1               14.4.0-1             
+2026/11/07 10:47:41   35 install binutils                 2.47-1               
+2026/11/07 10:47:41   36 install libargp                  20250917-2           
+2026/11/07 10:47:41   37 install libpcre2_8_0             10.49-1              
+2026/11/07 10:47:41   38 install libstdc++6               14.4.0-1             
+2026/11/07 10:47:41   39 install libpcre1                 8.45-1               
+2026/11/07 10:47:41   40 install libbrotlicommon1         1.2.1-1              
+2026/11/07 10:47:41   41 install libunistring5            1.4.1-1              
+2026/11/07 10:47:41   42 install libgmp10                 6.3.0-1              
+2026/11/07 10:47:41   43 install libgc1                   8.2.12-1             
+2026/11/07 10:47:41   44 install libffi8                  3.8.0-1              
+2026/11/07 10:47:41   45 install libcrypt2                4.5.2-1              
+2026/11/07 10:47:41   46 install libpipeline1             1.5.8-1              
+2026/11/07 10:47:41   47 install libgdbm6                 1.26-1               
+2026/11/07 10:47:41   48 install libattr1                 2.5.2-2              
+2026/11/07 10:47:41   49 install libuuid1                 2.40.2-2             
+2026/11/07 10:47:41   50 install libsmartcols1            2.40.2-2             
+2026/11/07 10:47:41   51 install liblastlog2              2.40.2-2             
+2026/11/07 10:47:41   52 install libblkid1                2.40.2-2             
+2026/11/07 10:47:41   53 install which                    2.25-1               
+2026/11/07 10:47:41   54 install vim-minimal              9.1.1825-1           
+2026/11/07 10:47:41   55 install run                      1.3.4-2              
+2026/11/07 10:47:41   56 install ncurses                  6.5+20240427-1       
+2026/11/07 10:47:41   57 install login                    1.13-1               
+2026/11/07 10:47:41   58 install ipc-utils                1.1-1                
+2026/11/07 10:47:41   59 install hostname                 3.13-1               
+2026/11/07 10:47:41   60 install gzip                     1.15-1               
+2026/11/07 10:47:41   61 install editrights               1.04-1               
+2026/11/07 10:47:41   62 install diffutils                3.12-1               
+2026/11/07 10:47:41   63 install dash                     0.5.12-5             
+2026/11/07 10:47:41   64 install base-cygwin              3.8-2                
+2026/11/07 10:47:41   65 install alternatives             1.31-1               
+2026/11/07 10:47:41   66 install libreadline8             8.3-1                
+2026/11/07 10:47:41   67 install pkgconf                  3.0.10-1             
+2026/11/07 10:47:41   68 install libiconv-devel           1.19-2               
+2026/11/07 10:47:41   69 install libk5crypto3             1.15.2-2             
+2026/11/07 10:47:41   70 install cygutils                 1.4.17-4             
+2026/11/07 10:47:41   71 install xz                       5.8.4-1              
+2026/11/07 10:47:41   72 install bzip2                    1.0.8-2              
+2026/11/07 10:47:41   73 install file                     5.46-1               
+2026/11/07 10:47:41   74 install getent                   2.18.90-5            
+2026/11/07 10:47:41   75 install grep                     3.12-1               
+2026/11/07 10:47:41   76 install libdb5.3                 5.3.28-2             
+2026/11/07 10:47:41   77 install libuchardet0             0.0.8-1              
+2026/11/07 10:47:41   78 install zstd                     1.5.7-1              
+2026/11/07 10:47:41   79 install less                     710-1                
+2026/11/07 10:47:41   80 install libbrotlienc1            1.2.1-1              
+2026/11/07 10:47:41   81 install libbrotlidec1            1.2.1-1              
+2026/11/07 10:47:41   82 install libpsl5                  0.23.3-1             
+2026/11/07 10:47:41   83 install libmpfr6                 4.2.2-1              
+2026/11/07 10:47:41   84 install libisl23                 0.28-1               
+2026/11/07 10:47:41   85 install libp11-kit0              0.26.5-1             
+2026/11/07 10:47:41   86 install perl_base                5.44.0-1             
+2026/11/07 10:47:41   87 install perl_autorebase          5.44.0-1             
+2026/11/07 10:47:41   88 install libgdbm_compat4          1.26-1               
+2026/11/07 10:47:41   89 install sed                      4.10-1               
+2026/11/07 10:47:41   90 install coreutils                9.0-1                
+2026/11/07 10:47:41   91 install libfdisk1                2.40.2-2             
+2026/11/07 10:47:41   92 install _autorebase              001091-1             
+2026/11/07 10:47:41   93 install rebase                   4.6.6-1              
+2026/11/07 10:47:41   94 install mintty                   3.8.3-1              
+2026/11/07 10:47:41   95 install info                     7.3-1                
+2026/11/07 10:47:41   96 install libguile3.0_1            3.0.11-1             
+2026/11/07 10:47:41   97 install pkg-config               3.0.10-1             
+2026/11/07 10:47:41   98 install libkrb5_3                1.15.2-2             
+2026/11/07 10:47:41   99 install groff                    1.24.2-1             
+2026/11/07 10:47:41  100 install tar                      1.35-2               
+2026/11/07 10:47:41  101 install libmpc3                  1.4.1-1              
+2026/11/07 10:47:41  102 install gawk                     5.4.0-1              
+2026/11/07 10:47:41  103 install p11-kit-trust            0.26.5-1             
+2026/11/07 10:47:41  104 install p11-kit                  0.26.5-1             
+2026/11/07 10:47:41  105 install perl-Clone               0.510.0-1            
+2026/11/07 10:47:41  106 install perl-LWP-MediaTypes      6.50.0-1             
+2026/11/07 10:47:41  107 install perl-HTML-Tagset         3.240.0-1            
+2026/11/07 10:47:41  108 install perl-MIME-Base32         1.303.0-1            
+2026/11/07 10:47:41  109 install perl-TimeDate            2.350.0-1            
+2026/11/07 10:47:41  110 install perl-IO-HTML             1.4.0-1              
+2026/11/07 10:47:41  111 install perl-Encode-Locale       1.50.0-1             
+2026/11/07 10:47:41  112 install findutils                4.11.0-1             
+2026/11/07 10:47:41  113 install crypto-policies          20190218-1           
+2026/11/07 10:47:41  114 install util-linux               2.40.2-2             
+2026/11/07 10:47:41  115 install make                     4.4.1-2              
+2026/11/07 10:47:41  116 install libcom_err-devel         1.44.5-1             
+2026/11/07 10:47:41  117 install zlib-devel               1.3.2-1              
+2026/11/07 10:47:41  118 install libzstd-devel            1.5.7-1              
+2026/11/07 10:47:41  119 install libnghttp2-devel         1.69.0-1             
+2026/11/07 10:47:41  120 install libidn2-devel            2.3.8-1              
+2026/11/07 10:47:41  121 install libbrotli-devel          1.2.1-1              
+2026/11/07 10:47:41  122 install libgssapi_krb5_2         1.15.2-2             
+2026/11/07 10:47:41  123 install gcc-core                 14.4.0-1             
+2026/11/07 10:47:41  124 install ca-certificates          2026.2.92_v9.0.319-1 
+2026/11/07 10:47:41  125 install perl-HTTP-Date           6.80.0-1             
+2026/11/07 10:47:41  126 install base-files               4.3-3                
+2026/11/07 10:47:41  127 install man-db                   2.13.1-1             
+2026/11/07 10:47:41  128 install libpsl-devel             0.23.3-1             
+2026/11/07 10:47:41  129 install libgssrpc4               1.15.2-2             
+2026/11/07 10:47:41  130 install gcc-g++                  14.4.0-1             
+2026/11/07 10:47:41  131 install libssl1.0                1.0.2u+za-1          
+2026/11/07 10:47:41  132 install libssl1.1                1.1.1w-1             
+2026/11/07 10:47:41  133 install libssl3                  3.5.9-1              
+2026/11/07 10:47:41  134 install perl-File-Listing        6.160.0-1            
+2026/11/07 10:47:41  135 install libkdb5_8                1.15.2-2             
+2026/11/07 10:47:41  136 install libkadm5clnt_mit11       1.15.2-2             
+2026/11/07 10:47:41  137 install libevent2.0_5            2.0.22-1             
+2026/11/07 10:47:41  138 install libssh2_1                1.11.0-1             
+2026/11/07 10:47:41  139 install libsasl2_3               2.1.27-1             
+2026/11/07 10:47:41  140 install libdb18.1                18.1.40-1            
+2026/11/07 10:47:41  141 install libssl-devel             3.5.9-1              
+2026/11/07 10:47:41  142 install openssl                  3.5.9-1              
+2026/11/07 10:47:41  143 install libkadm5srv_mit11        1.15.2-2             
+2026/11/07 10:47:41  144 install libverto1                0.2.6-1              
+2026/11/07 10:47:41  145 install libopenldap2             2.7.2-1              
+2026/11/07 10:47:41  146 install perl                     5.44.0-1             
+2026/11/07 10:47:41  147 install libssh2-devel            1.11.0-1             
+2026/11/07 10:47:41  148 install libkrad0                 1.15.2-2             
+2026/11/07 10:47:41  149 install libopenldap2_4_2         2.7.2-1              
+2026/11/07 10:47:41  150 install libcurl4                 8.23.0-1             
+2026/11/07 10:47:41  151 install perl-URI                 5.400.0-1            
+2026/11/07 10:47:41  152 install perl-Try-Tiny            0.320.0-1            
+2026/11/07 10:47:41  153 install libkrb5-devel            1.15.2-2             
+2026/11/07 10:47:41  154 install perl-HTTP-Message        7.40.0-1             
+2026/11/07 10:47:41  155 install perl-Net-HTTP            6.240.0-1            
+2026/11/07 10:47:41  156 install perl-WWW-RobotRules      6.30.0-1             
+2026/11/07 10:47:41  157 install perl-HTTP-Cookies        6.120.0-1            
+2026/11/07 10:47:41  158 install perl-HTML-Parser         3.860.0-1            
+2026/11/07 10:47:41  159 install perl-HTTP-Negotiate      6.10.0-1             
+2026/11/07 10:47:41  160 install perl-libwww-perl         6.830.0-1            
+2026/11/07 10:47:41  161 install libcurl-devel            8.23.0-1             
+2026/11/07 10:47:52 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.6.12-1-x86_64.tar.xz
+2026/11/07 10:47:53 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-14.0.0-1-x86_64.tar.xz
+2026/11/07 10:47:53 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.5-1-x86_64.tar.xz
+2026/11/07 10:47:53 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20260724-1-noarch.tar.xz
+2026/11/07 10:47:54 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-14.0.0-1-x86_64.tar.xz
+2026/11/07 10:47:55 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gettext/libintl-devel/libintl-devel-0.22.5-1.tar.xz
+2026/11/07 10:47:55 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pkgconf/libpkgconf8/libpkgconf8-3.0.10-1-x86_64.tar.zst
+2026/11/07 10:47:55 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libiconv/libcharset1/libcharset1-1.19-2-x86_64.tar.xz
+2026/11/07 10:47:56 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.8-1.tar.xz
+2026/11/07 10:47:56 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2026/11/07 10:47:56 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2026/11/07 10:47:57 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.69.0-1-x86_64.tar.xz
+2026/11/07 10:47:57 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:47:58 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:47:59 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:47:59 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.47-1-x86_64.tar.zst
+2026/11/07 10:48:00 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:48:01 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.4.1-1-x86_64.tar.xz
+2026/11/07 10:48:01 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-8.2.12-1-x86_64.tar.xz
+2026/11/07 10:48:01 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz
+2026/11/07 10:48:02 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pkgconf/pkgconf-3.0.10-1-x86_64.tar.zst
+2026/11/07 10:48:03 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libiconv/libiconv-devel/libiconv-devel-1.19-2-x86_64.tar.xz
+2026/11/07 10:48:03 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2026/11/07 10:48:03 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2026/11/07 10:48:04 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotlienc1/libbrotlienc1-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:48:04 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:48:04 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.23.3-1-x86_64.tar.xz
+2026/11/07 10:48:05 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.28-1-x86_64.tar.zst
+2026/11/07 10:48:05 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl/perl_base/perl_base-5.44.0-1-x86_64.tar.zst
+2026/11/07 10:48:06 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl/perl_autorebase/perl_autorebase-5.44.0-1-x86_64.tar.zst
+2026/11/07 10:48:06 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.26-1-x86_64.tar.xz
+2026/11/07 10:48:08 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/guile3.0/libguile3.0_1/libguile3.0_1-3.0.11-1-x86_64.tar.xz
+2026/11/07 10:48:08 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pkgconf/pkg-config/pkg-config-3.0.10-1-x86_64.tar.zst
+2026/11/07 10:48:08 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2026/11/07 10:48:09 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.4.1-1-x86_64.tar.zst
+2026/11/07 10:48:09 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl-Clone/perl-Clone-0.510.0-1-x86_64.tar.zst
+2026/11/07 10:48:10 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-LWP-MediaTypes/perl-LWP-MediaTypes-6.50.0-1-noarch.tar.zst
+2026/11/07 10:48:10 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTML-Tagset/perl-HTML-Tagset-3.240.0-1-noarch.tar.zst
+2026/11/07 10:48:11 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-MIME-Base32/perl-MIME-Base32-1.303.0-1-noarch.tar.zst
+2026/11/07 10:48:11 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-TimeDate/perl-TimeDate-2.350.0-1-noarch.tar.zst
+2026/11/07 10:48:12 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-IO-HTML/perl-IO-HTML-1.4.0-1-noarch.tar.zst
+2026/11/07 10:48:12 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-Encode-Locale/perl-Encode-Locale-1.50.0-1-noarch.tar.zst
+2026/11/07 10:48:13 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+2026/11/07 10:48:13 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err-devel/libcom_err-devel-1.44.5-1.tar.xz
+2026/11/07 10:48:14 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zlib/zlib-devel/zlib-devel-1.3.2-1-x86_64.tar.zst
+2026/11/07 10:48:14 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zstd/libzstd-devel/libzstd-devel-1.5.7-1.tar.zst
+2026/11/07 10:48:15 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2-devel/libnghttp2-devel-1.69.0-1-x86_64.tar.xz
+2026/11/07 10:48:15 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libidn2/libidn2-devel/libidn2-devel-2.3.8-1.tar.xz
+2026/11/07 10:48:16 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotli-devel/libbrotli-devel-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:48:16 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2026/11/07 10:48:18 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:48:19 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Date/perl-HTTP-Date-6.80.0-1-noarch.tar.zst
+2026/11/07 10:48:20 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libpsl/libpsl-devel/libpsl-devel-0.23.3-1-x86_64.tar.xz
+2026/11/07 10:48:20 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libgssrpc4/libgssrpc4-1.15.2-2.tar.xz
+2026/11/07 10:48:22 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:48:23 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl10/libssl1.0/libssl1.0-1.0.2u+za-1.tar.zst
+2026/11/07 10:48:24 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst
+2026/11/07 10:48:24 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-File-Listing/perl-File-Listing-6.160.0-1-noarch.tar.zst
+2026/11/07 10:48:25 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkdb5_8/libkdb5_8-1.15.2-2.tar.xz
+2026/11/07 10:48:26 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkadm5clnt_mit11/libkadm5clnt_mit11-1.15.2-2.tar.xz
+2026/11/07 10:48:26 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libevent/libevent2.0_5/libevent2.0_5-2.0.22-1.tar.xz
+2026/11/07 10:48:26 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.11.0-1.tar.xz
+2026/11/07 10:48:27 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.27-1.tar.xz
+2026/11/07 10:48:28 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/db/libdb18.1/libdb18.1-18.1.40-1.tar.xz
+2026/11/07 10:48:30 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/libssl-devel/libssl-devel-3.5.9-1-x86_64.tar.zst
+2026/11/07 10:48:30 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkadm5srv_mit11/libkadm5srv_mit11-1.15.2-2.tar.xz
+2026/11/07 10:48:31 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libverto/libverto1/libverto1-0.2.6-1.tar.xz
+2026/11/07 10:48:31 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.7.2-1-x86_64.tar.zst
+2026/11/07 10:48:32 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl/perl-5.44.0-1-x86_64.tar.zst
+2026/11/07 10:48:33 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libssh2/libssh2-devel/libssh2-devel-1.11.0-1.tar.xz
+2026/11/07 10:48:33 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrad0/libkrad0-1.15.2-2.tar.xz
+2026/11/07 10:48:34 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.7.2-1-x86_64.tar.zst
+2026/11/07 10:48:34 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.23.0-1-x86_64.tar.xz
+2026/11/07 10:48:35 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-URI/perl-URI-5.400.0-1-noarch.tar.zst
+2026/11/07 10:48:35 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-Try-Tiny/perl-Try-Tiny-0.320.0-1-noarch.tar.zst
+2026/11/07 10:48:36 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrb5-devel/libkrb5-devel-1.15.2-2.tar.xz
+2026/11/07 10:48:37 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Message/perl-HTTP-Message-7.40.0-1-noarch.tar.zst
+2026/11/07 10:48:37 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-Net-HTTP/perl-Net-HTTP-6.240.0-1-noarch.tar.zst
+2026/11/07 10:48:38 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-WWW-RobotRules/perl-WWW-RobotRules-6.30.0-1-noarch.tar.zst
+2026/11/07 10:48:38 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Cookies/perl-HTTP-Cookies-6.120.0-1-noarch.tar.zst
+2026/11/07 10:48:39 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl-HTML-Parser/perl-HTML-Parser-3.860.0-1-x86_64.tar.zst
+2026/11/07 10:48:40 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Negotiate/perl-HTTP-Negotiate-6.10.0-1-noarch.tar.zst
+2026/11/07 10:48:40 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-libwww-perl/perl-libwww-perl-6.830.0-1-noarch.tar.zst
+2026/11/07 10:48:41 Downloaded C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/curl/libcurl-devel/libcurl-devel-8.23.0-1-x86_64.tar.xz
+2026/11/07 10:48:41 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2026/11/07 10:48:41 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\x86_64\rootdir = "C:\cygwin64"
+2026/11/07 10:48:41 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gettext/gettext-locale-alias/gettext-locale-alias-0.26-1-x86_64.tar.xz
+2026/11/07 10:48:41 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.5+20240427-1.tar.xz
+2026/11/07 10:48:41 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2026f-1-noarch.tar.xz
+2026/11/07 10:48:43 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.49.1-1.tar.xz
+2026/11/07 10:48:43 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.6.12-1-x86_64.tar.xz
+2026/11/07 10:48:44 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-14.0.0-1-x86_64.tar.xz
+2026/11/07 10:48:49 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.5-1-x86_64.tar.xz
+2026/11/07 10:48:50 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2026/11/07 10:48:50 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20260724-1-noarch.tar.xz
+2026/11/07 10:48:50 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3.2-1-x86_64.tar.zst
+2026/11/07 10:48:50 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-14.0.0-1-x86_64.tar.xz
+2026/11/07 10:48:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.7-1.tar.zst
+2026/11/07 10:48:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:48:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.6.12-1-x86_64.tar.xz
+2026/11/07 10:48:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.19-2-x86_64.tar.xz
+2026/11/07 10:48:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22.5-1.tar.xz
+2026/11/07 10:48:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gettext/libintl-devel/libintl-devel-0.22.5-1.tar.xz
+2026/11/07 10:48:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.5+20240427-1.tar.xz
+2026/11/07 10:48:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2026/11/07 10:48:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.21-1.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pkgconf/libpkgconf8/libpkgconf8-3.0.10-1-x86_64.tar.zst
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libiconv/libcharset1/libcharset1-1.19-2-x86_64.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.8-1.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.69.0-1-x86_64.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.21.0-1-x86_64.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2026f-1-x86_64.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.8.4-1-x86_64.tar.zst
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-2-x86_64.tar.xz
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:48:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.47-1-x86_64.tar.zst
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libargp/libargp-20250917-2-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.49-1-x86_64.tar.zst
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.45-1.tar.zst
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.4.1-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-8.2.12-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libffi/libffi8/libffi8-3.8.0-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.8-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.26-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.2-2-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.40.2-2.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.40.2-2.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/liblastlog2/liblastlog2-2.40.2-2.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.40.2-2.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/which/which-2.25-1-x86_64.tar.xz
+2026/11/07 10:48:56 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-9.1.1825-1-x86_64.tar.xz
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.5+20240427-1.tar.xz
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.15-1-x86_64.tar.xz
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2026/11/07 10:48:57 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.12-1-x86_64.tar.xz
+2026/11/07 10:48:58 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-5.tar.xz
+2026/11/07 10:48:58 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2026/11/07 10:48:58 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.31-1.tar.xz
+2026/11/07 10:48:58 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/readline/libreadline8/libreadline8-8.3-1-x86_64.tar.xz
+2026/11/07 10:48:58 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pkgconf/pkgconf-3.0.10-1-x86_64.tar.zst
+2026/11/07 10:48:58 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libiconv/libiconv-devel/libiconv-devel-1.19-2-x86_64.tar.xz
+2026/11/07 10:48:59 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2026/11/07 10:48:59 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-4-x86_64.tar.xz
+2026/11/07 10:48:59 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/xz/xz-5.8.4-1-x86_64.tar.zst
+2026/11/07 10:49:00 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-2-x86_64.tar.xz
+2026/11/07 10:49:00 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/file/file-5.46-1-x86_64.tar.xz
+2026/11/07 10:49:00 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2026/11/07 10:49:00 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/grep/grep-3.12-1-x86_64.tar.xz
+2026/11/07 10:49:00 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2026/11/07 10:49:00 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+2026/11/07 10:49:00 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.7-1.tar.zst
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/less/less-710-1-x86_64.tar.xz
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotlienc1/libbrotlienc1-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.23.3-1-x86_64.tar.xz
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.2-1.tar.zst
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.28-1-x86_64.tar.zst
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.26.5-1-x86_64.tar.xz
+2026/11/07 10:49:01 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl/perl_base/perl_base-5.44.0-1-x86_64.tar.zst
+2026/11/07 10:49:02 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl/perl_autorebase/perl_autorebase-5.44.0-1-x86_64.tar.zst
+2026/11/07 10:49:02 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.26-1-x86_64.tar.xz
+2026/11/07 10:49:02 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/sed/sed-4.10-1-x86_64.tar.xz
+2026/11/07 10:49:02 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2026/11/07 10:49:04 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.40.2-2.tar.xz
+2026/11/07 10:49:04 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2026/11/07 10:49:04 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+2026/11/07 10:49:04 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.8.3-1-x86_64.tar.xz
+2026/11/07 10:49:05 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.3-1-x86_64.tar.zst
+2026/11/07 10:49:05 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/guile3.0/libguile3.0_1/libguile3.0_1-3.0.11-1-x86_64.tar.xz
+2026/11/07 10:49:09 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/pkgconf/pkg-config/pkg-config-3.0.10-1-x86_64.tar.zst
+2026/11/07 10:49:09 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2026/11/07 10:49:09 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/groff/groff-1.24.2-1-x86_64.tar.zst
+2026/11/07 10:49:12 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-2.tar.zst
+2026/11/07 10:49:12 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.4.1-1-x86_64.tar.zst
+2026/11/07 10:49:12 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.4.0-1-x86_64.tar.xz
+2026/11/07 10:49:13 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.26.5-1-x86_64.tar.xz
+2026/11/07 10:49:13 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.26.5-1-x86_64.tar.xz
+2026/11/07 10:49:13 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl-Clone/perl-Clone-0.510.0-1-x86_64.tar.zst
+2026/11/07 10:49:13 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-LWP-MediaTypes/perl-LWP-MediaTypes-6.50.0-1-noarch.tar.zst
+2026/11/07 10:49:13 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTML-Tagset/perl-HTML-Tagset-3.240.0-1-noarch.tar.zst
+2026/11/07 10:49:13 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-MIME-Base32/perl-MIME-Base32-1.303.0-1-noarch.tar.zst
+2026/11/07 10:49:14 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-TimeDate/perl-TimeDate-2.350.0-1-noarch.tar.zst
+2026/11/07 10:49:14 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-IO-HTML/perl-IO-HTML-1.4.0-1-noarch.tar.zst
+2026/11/07 10:49:14 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-Encode-Locale/perl-Encode-Locale-1.50.0-1-noarch.tar.zst
+2026/11/07 10:49:14 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.11.0-1-x86_64.tar.xz
+2026/11/07 10:49:15 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2026/11/07 10:49:15 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.40.2-2.tar.xz
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err-devel/libcom_err-devel-1.44.5-1.tar.xz
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zlib/zlib-devel/zlib-devel-1.3.2-1-x86_64.tar.zst
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/zstd/libzstd-devel/libzstd-devel-1.5.7-1.tar.zst
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2-devel/libnghttp2-devel-1.69.0-1-x86_64.tar.xz
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libidn2/libidn2-devel/libidn2-devel-2.3.8-1.tar.xz
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/brotli/libbrotli-devel/libbrotli-devel-1.2.1-1-x86_64.tar.xz
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2026/11/07 10:49:16 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:49:19 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2026.2.92_v9.0.319-1-noarch.tar.zst
+2026/11/07 10:49:19 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Date/perl-HTTP-Date-6.80.0-1-noarch.tar.zst
+2026/11/07 10:49:19 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2026/11/07 10:49:19 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.13.1-1-x86_64.tar.zst
+2026/11/07 10:49:20 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libpsl/libpsl-devel/libpsl-devel-0.23.3-1-x86_64.tar.xz
+2026/11/07 10:49:20 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libgssrpc4/libgssrpc4-1.15.2-2.tar.xz
+2026/11/07 10:49:20 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-14.4.0-1-x86_64.tar.zst
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl10/libssl1.0/libssl1.0-1.0.2u+za-1.tar.zst
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1w-1.tar.zst
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.5.9-1-x86_64.tar.zst
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-File-Listing/perl-File-Listing-6.160.0-1-noarch.tar.zst
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkdb5_8/libkdb5_8-1.15.2-2.tar.xz
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkadm5clnt_mit11/libkadm5clnt_mit11-1.15.2-2.tar.xz
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libevent/libevent2.0_5/libevent2.0_5-2.0.22-1.tar.xz
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.11.0-1.tar.xz
+2026/11/07 10:49:25 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.27-1.tar.xz
+2026/11/07 10:49:26 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/db/libdb18.1/libdb18.1-18.1.40-1.tar.xz
+2026/11/07 10:49:26 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/libssl-devel/libssl-devel-3.5.9-1-x86_64.tar.zst
+2026/11/07 10:49:45 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openssl/openssl-3.5.9-1-x86_64.tar.zst
+2026/11/07 10:49:46 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkadm5srv_mit11/libkadm5srv_mit11-1.15.2-2.tar.xz
+2026/11/07 10:49:46 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libverto/libverto1/libverto1-0.2.6-1.tar.xz
+2026/11/07 10:49:46 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.7.2-1-x86_64.tar.zst
+2026/11/07 10:49:46 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl/perl-5.44.0-1-x86_64.tar.zst
+2026/11/07 10:49:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/libssh2/libssh2-devel/libssh2-devel-1.11.0-1.tar.xz
+2026/11/07 10:49:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrad0/libkrad0-1.15.2-2.tar.xz
+2026/11/07 10:49:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.7.2-1-x86_64.tar.zst
+2026/11/07 10:49:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.23.0-1-x86_64.tar.xz
+2026/11/07 10:49:53 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-URI/perl-URI-5.400.0-1-noarch.tar.zst
+2026/11/07 10:49:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-Try-Tiny/perl-Try-Tiny-0.320.0-1-noarch.tar.zst
+2026/11/07 10:49:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/krb5/libkrb5-devel/libkrb5-devel-1.15.2-2.tar.xz
+2026/11/07 10:49:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Message/perl-HTTP-Message-7.40.0-1-noarch.tar.zst
+2026/11/07 10:49:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-Net-HTTP/perl-Net-HTTP-6.240.0-1-noarch.tar.zst
+2026/11/07 10:49:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-WWW-RobotRules/perl-WWW-RobotRules-6.30.0-1-noarch.tar.zst
+2026/11/07 10:49:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Cookies/perl-HTTP-Cookies-6.120.0-1-noarch.tar.zst
+2026/11/07 10:49:54 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/perl-HTML-Parser/perl-HTML-Parser-3.860.0-1-x86_64.tar.zst
+2026/11/07 10:49:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-HTTP-Negotiate/perl-HTTP-Negotiate-6.10.0-1-noarch.tar.zst
+2026/11/07 10:49:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/noarch/release/perl-libwww-perl/perl-libwww-perl-6.830.0-1-noarch.tar.zst
+2026/11/07 10:49:55 Extracting from file://C:\Users\administrator\Downloads/https%3a%2f%2fmirrors.tencent.com%2fcygwin%2f/x86_64/release/curl/libcurl-devel/libcurl-devel-8.23.0-1-x86_64.tar.xz
+2026/11/07 10:49:56 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2026/11/07 10:49:59 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2026/11/07 10:50:02 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2026/11/07 10:50:03 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2026/11/07 10:50:03 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2026/11/07 10:50:05 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2026/11/07 10:50:30 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2026/11/07 10:50:30 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2026/11/07 10:50:34 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2026/11/07 10:50:34 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/openssl10.dash"
+2026/11/07 10:50:34 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2026/11/07 10:50:34 can't run /etc/postinstall/openssl.sh: No such file
+2026/11/07 10:50:34 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2026/11/07 10:50:34 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2026/11/07 10:50:34 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2026/11/07 10:50:34 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2026/11/07 10:50:53 note: Installation Complete
+2026/11/07 10:50:53 Ending cygwin install
